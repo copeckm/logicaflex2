@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/margin.css">
+    <title>Login do usuario</title>
+</head>
+
+<body>
+    <nav>
+        <a href="/index.html">home</a>
+        <a href="/pages/cadastro.html">Cadastro de dados</a>
+    </nav>
+    <hr>
+    <style>
+.vermelho{
+    background-color: red;
+    color: white;
+}
+    </style>
+    <form action="">
+        <h3>Login</h3>
+        <label for="usuario">Usuário:</label>
+        <input type="email" id="usuario">
+        <button class="btn" type="button" id="botaoSenha" onclick="togglePass()" >Exibir</button>
+        <div>
+            <label for="senha1">Senha:</label>
+            <input type="password" oninput="conferirSenha()" id="senha1">
+            <label for="senha2">Confirme a senha:</label>
+            <input type="password" oninput="conferirSenha()" id="senha2">
+        </div>
+        <div>
+            <h3>Gostos musicais</h3>
+            <input type="checkbox" name="" id=""> MPB
+            <input type="checkbox" name="" id="" disabled> Rock
+            <input type="checkbox" name="" id="" checked> Pop
+            <input type="checkbox" name="" id=""> Trap
+            <input type="checkbox" name="" id=""> Sertanejo
+        </div>
+    </form>
+    <a href="/pages/cadastro.html">Cadastrar Usuario</a>
+    <script src="/assets/js/cadastro.js"></script>
+</body>
+
+</html>

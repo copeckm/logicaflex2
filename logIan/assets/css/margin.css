@@ -1,0 +1,22 @@
+form{
+    font-weight:900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique ;
+}
+.btn:hover{
+    background-color: rgb(203, 240, 38);
+    color: #000;
+} 
+button{
+    background-color: chocolate;
+    border-radius: 15px;
+    border: 14px;
+    color: rgb(245, 245, 245);
+    padding: 5px 16px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2;
+    cursor: pointer;
+}

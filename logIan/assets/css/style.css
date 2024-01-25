@@ -1,0 +1,19 @@
+div{
+    margin-top: 10px;
+    background-color: rgba(176, 70, 238, 0.37);
+}
+h3{
+    font-family: Arial, sans-serif;
+    font-style: italic;
+}
+body{
+    background-color: rgb(25, 26, 44);
+}
+input{
+    border-radius: 5px;
+}
+label{
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+}
